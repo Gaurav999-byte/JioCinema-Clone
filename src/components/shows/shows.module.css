@@ -1,0 +1,17 @@
+.shows
+{
+      width: 100%;
+      background-color:#060707;
+      box-sizing: border-box;
+      padding: 10px 2%;
+      color:white;
+}
+
+.showsParent
+{
+      width: 100%;
+      /* background-color: blue; */
+      display: flex;
+      justify-content: space-between;
+}
+
