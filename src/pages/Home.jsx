@@ -17,7 +17,8 @@ export default function Home() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        let movieResponse = await fetch("https://your-backend.onrender.com/movies");
+        let movieResponse = await fetch("https://api-backend-rk27.onrender.com/movies");
+
 
         let moviesData = await movieResponse.json();
         setMovies(moviesData);
