@@ -17,7 +17,8 @@ export default function Home() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        let movieResponse = await fetch("https://your-app.up.railway.app/movies");
+        let movieResponse = await fetch("https://jio-cinema-backend.onrender.com/movies");
+
         let moviesData = await movieResponse.json();
         setMovies(moviesData);
 
