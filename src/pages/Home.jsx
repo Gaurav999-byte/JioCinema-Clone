@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        let movieResponse = await fetch("http://localhost:3000/movies");
+        let movieResponse = await fetch("https://your-app.up.railway.app/movies");
         let moviesData = await movieResponse.json();
         setMovies(moviesData);
 
